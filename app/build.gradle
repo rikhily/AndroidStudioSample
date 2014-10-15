@@ -18,7 +18,9 @@ android {
         }
     }
 }
-
+// This dependency is automatically created after adding the Firebase SDK to the libs folder.
+// It basically includes the libraries of the Firebase into our app.
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+
 }
